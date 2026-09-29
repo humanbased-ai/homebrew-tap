@@ -12,5 +12,4 @@ and anchor a contribution.
 The formula installs a prebuilt binary from the corresponding public
 [`xny` mirror release](https://github.com/humanbased-ai/homebrew-tap/releases).
 Go is not required. The private source release workflow copies each verified
-archive here; this tap checks hourly and updates the formula when a new
-`xny/vX.Y.Z` mirror is published.
+archive here and updates the formula when a new version is published.
