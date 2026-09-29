@@ -27,6 +27,6 @@ class Xny < Formula
   end
 
   test do
-    assert_match "xny #{version}", shell_output("#{bin}/xny version")
+    assert_match "xny v#{version}", shell_output("#{bin}/xny version")
   end
 end
