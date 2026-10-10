@@ -1,24 +1,25 @@
 class Xny < Formula
   desc "Command-line client for XnY Cloud"
   homepage "https://docs.xny.ai/developer/cli"
-  version "0.1.1"
+  version "0.1.2"
+
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/humanbased-ai/homebrew-tap/releases/download/xny/v0.1.1/xny_0.1.1_darwin_arm64.tar.gz"
-      sha256 "eb5a79b8f3b97a660d590ea6221f3c8fe67565c3b84ebbabad6e804dd6a76719"
+      url "https://github.com/humanbased-ai/homebrew-tap/releases/download/xny/v0.1.2/xny_0.1.2_darwin_arm64.tar.gz"
+      sha256 "b418971ae57160611abd771b4e0a46e07ea858f44eb51ad17bd7f6d58c862b62"
     else
-      url "https://github.com/humanbased-ai/homebrew-tap/releases/download/xny/v0.1.1/xny_0.1.1_darwin_amd64.tar.gz"
-      sha256 "8956f439ddba8890b866575bdec7b6cf474df60b7741759d98f47fd400593ede"
+      url "https://github.com/humanbased-ai/homebrew-tap/releases/download/xny/v0.1.2/xny_0.1.2_darwin_amd64.tar.gz"
+      sha256 "505d8d724463e2c4414fb5624e3d93dc29c075f8a4ebace42c0b71c2f6a5b32c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/humanbased-ai/homebrew-tap/releases/download/xny/v0.1.1/xny_0.1.1_linux_arm64.tar.gz"
-      sha256 "8248d5bedd515fc9341f1fecc946033f786c96a5faf4bca4e176b8065c139d9c"
+      url "https://github.com/humanbased-ai/homebrew-tap/releases/download/xny/v0.1.2/xny_0.1.2_linux_arm64.tar.gz"
+      sha256 "8479b39b8f59f22ebc81eef0569b2d1470cfdbdcd08760540148ea0d014bec4e"
     else
-      url "https://github.com/humanbased-ai/homebrew-tap/releases/download/xny/v0.1.1/xny_0.1.1_linux_amd64.tar.gz"
-      sha256 "d8105b7fafcbad10b75c4f64e0fdaa0b90c3ecb82f55f8bcf49d147530183c67"
+      url "https://github.com/humanbased-ai/homebrew-tap/releases/download/xny/v0.1.2/xny_0.1.2_linux_amd64.tar.gz"
+      sha256 "9bac16d69c8b321aa406652b579df0fa2efac95b51188715242ed1c5befcb368"
     end
   end
 
